@@ -1,0 +1,22 @@
+GoetasWebservices\Client\AdyenPayment\Common\SplitAmountType:
+    properties:
+        currency:
+            expose: true
+            access_type: public_method
+            serialized_name: currency
+            xml_element:
+                namespace: 'http://common.services.adyen.com'
+            accessor:
+                getter: getCurrency
+                setter: setCurrency
+            type: string
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: value
+            xml_element:
+                namespace: 'http://common.services.adyen.com'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: int

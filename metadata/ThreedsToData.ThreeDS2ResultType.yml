@@ -1,0 +1,62 @@
+GoetasWebservices\Client\AdyenPayment\ThreedsToData\ThreeDS2ResultType:
+    properties:
+        authenticationValue:
+            expose: true
+            access_type: public_method
+            serialized_name: authenticationValue
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getAuthenticationValue
+                setter: setAuthenticationValue
+            type: string
+        eci:
+            expose: true
+            access_type: public_method
+            serialized_name: eci
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getEci
+                setter: setEci
+            type: string
+        threeDSServerTransID:
+            expose: true
+            access_type: public_method
+            serialized_name: threeDSServerTransID
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getThreeDSServerTransID
+                setter: setThreeDSServerTransID
+            type: string
+        timestamp:
+            expose: true
+            access_type: public_method
+            serialized_name: timestamp
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getTimestamp
+                setter: setTimestamp
+            type: string
+        transStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: transStatus
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getTransStatus
+                setter: setTransStatus
+            type: string
+        transStatusReason:
+            expose: true
+            access_type: public_method
+            serialized_name: transStatusReason
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getTransStatusReason
+                setter: setTransStatusReason
+            type: string

@@ -1,0 +1,12 @@
+soap_client:
+    namespaces:
+        'http://payment.services.adyen.com': GoetasWebservices\Client\AdyenPayment\Payment
+        'http://applicationinfo.payment.services.adyen.com': GoetasWebservices\Client\AdyenPayment\AppInfo
+        'http://common.services.adyen.com': GoetasWebservices\Client\AdyenPayment\Common
+        'http://threeds2data.payment.services.adyen.com': GoetasWebservices\Client\AdyenPayment\ThreedsToData
+    destinations_php:
+        GoetasWebservices\Client\AdyenPayment: src
+    destinations_jms:
+        GoetasWebservices\Client\AdyenPayment: metadata
+    metadata:
+        'https://pal-test.adyen.com/pal/servlet/Payment/v40?wsdl': null

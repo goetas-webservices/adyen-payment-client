@@ -1,0 +1,32 @@
+GoetasWebservices\Client\AdyenPayment\Payment\FraudCheckResultType:
+    properties:
+        accountScore:
+            expose: true
+            access_type: public_method
+            serialized_name: accountScore
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getAccountScore
+                setter: setAccountScore
+            type: int
+        checkId:
+            expose: true
+            access_type: public_method
+            serialized_name: checkId
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getCheckId
+                setter: setCheckId
+            type: int
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string

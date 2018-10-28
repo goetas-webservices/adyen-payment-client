@@ -1,0 +1,42 @@
+GoetasWebservices\Client\AdyenPayment\ThreedsToData\SDKEphemPubKeyType:
+    properties:
+        crv:
+            expose: true
+            access_type: public_method
+            serialized_name: crv
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getCrv
+                setter: setCrv
+            type: string
+        kty:
+            expose: true
+            access_type: public_method
+            serialized_name: kty
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getKty
+                setter: setKty
+            type: string
+        x:
+            expose: true
+            access_type: public_method
+            serialized_name: x
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getX
+                setter: setX
+            type: string
+        'y':
+            expose: true
+            access_type: public_method
+            serialized_name: 'y'
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getY
+                setter: setY
+            type: string

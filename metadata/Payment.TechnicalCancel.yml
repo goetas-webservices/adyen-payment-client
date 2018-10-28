@@ -1,0 +1,14 @@
+GoetasWebservices\Client\AdyenPayment\Payment\TechnicalCancel:
+    xml_root_name: technicalCancel
+    xml_root_namespace: 'http://payment.services.adyen.com'
+    properties:
+        modificationRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: modificationRequest
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getModificationRequest
+                setter: setModificationRequest
+            type: GoetasWebservices\Client\AdyenPayment\Payment\ModificationRequestType

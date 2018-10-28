@@ -1,0 +1,82 @@
+GoetasWebservices\Client\AdyenPayment\Payment\CardType:
+    properties:
+        cvc:
+            expose: true
+            access_type: public_method
+            serialized_name: cvc
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getCvc
+                setter: setCvc
+            type: string
+        expiryMonth:
+            expose: true
+            access_type: public_method
+            serialized_name: expiryMonth
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getExpiryMonth
+                setter: setExpiryMonth
+            type: string
+        expiryYear:
+            expose: true
+            access_type: public_method
+            serialized_name: expiryYear
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getExpiryYear
+                setter: setExpiryYear
+            type: string
+        holderName:
+            expose: true
+            access_type: public_method
+            serialized_name: holderName
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getHolderName
+                setter: setHolderName
+            type: string
+        issueNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: issueNumber
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getIssueNumber
+                setter: setIssueNumber
+            type: string
+        number:
+            expose: true
+            access_type: public_method
+            serialized_name: number
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getNumber
+                setter: setNumber
+            type: string
+        startMonth:
+            expose: true
+            access_type: public_method
+            serialized_name: startMonth
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getStartMonth
+                setter: setStartMonth
+            type: string
+        startYear:
+            expose: true
+            access_type: public_method
+            serialized_name: startYear
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getStartYear
+                setter: setStartYear
+            type: string

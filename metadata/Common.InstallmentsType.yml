@@ -1,0 +1,12 @@
+GoetasWebservices\Client\AdyenPayment\Common\InstallmentsType:
+    properties:
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: value
+            xml_element:
+                namespace: 'http://common.services.adyen.com'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: int

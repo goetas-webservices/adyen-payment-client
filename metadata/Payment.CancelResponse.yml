@@ -1,0 +1,14 @@
+GoetasWebservices\Client\AdyenPayment\Payment\CancelResponse:
+    xml_root_name: cancelResponse
+    xml_root_namespace: 'http://payment.services.adyen.com'
+    properties:
+        cancelResult:
+            expose: true
+            access_type: public_method
+            serialized_name: cancelResult
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getCancelResult
+                setter: setCancelResult
+            type: GoetasWebservices\Client\AdyenPayment\Payment\ModificationResultType

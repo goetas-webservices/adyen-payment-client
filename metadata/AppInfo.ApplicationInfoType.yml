@@ -1,0 +1,72 @@
+GoetasWebservices\Client\AdyenPayment\AppInfo\ApplicationInfoType:
+    properties:
+        adyenLibrary:
+            expose: true
+            access_type: public_method
+            serialized_name: adyenLibrary
+            xml_element:
+                namespace: 'http://applicationinfo.payment.services.adyen.com'
+            accessor:
+                getter: getAdyenLibrary
+                setter: setAdyenLibrary
+            type: GoetasWebservices\Client\AdyenPayment\AppInfo\CommonFieldType
+        adyenPaymentSource:
+            expose: true
+            access_type: public_method
+            serialized_name: adyenPaymentSource
+            xml_element:
+                namespace: 'http://applicationinfo.payment.services.adyen.com'
+            accessor:
+                getter: getAdyenPaymentSource
+                setter: setAdyenPaymentSource
+            type: GoetasWebservices\Client\AdyenPayment\AppInfo\CommonFieldType
+        externalPlatform:
+            expose: true
+            access_type: public_method
+            serialized_name: externalPlatform
+            xml_element:
+                namespace: 'http://applicationinfo.payment.services.adyen.com'
+            accessor:
+                getter: getExternalPlatform
+                setter: setExternalPlatform
+            type: GoetasWebservices\Client\AdyenPayment\AppInfo\ExternalPlatformType
+        merchantApplication:
+            expose: true
+            access_type: public_method
+            serialized_name: merchantApplication
+            xml_element:
+                namespace: 'http://applicationinfo.payment.services.adyen.com'
+            accessor:
+                getter: getMerchantApplication
+                setter: setMerchantApplication
+            type: GoetasWebservices\Client\AdyenPayment\AppInfo\CommonFieldType
+        merchantDevice:
+            expose: true
+            access_type: public_method
+            serialized_name: merchantDevice
+            xml_element:
+                namespace: 'http://applicationinfo.payment.services.adyen.com'
+            accessor:
+                getter: getMerchantDevice
+                setter: setMerchantDevice
+            type: GoetasWebservices\Client\AdyenPayment\AppInfo\MerchantDeviceType
+        paymentDetailsSource:
+            expose: true
+            access_type: public_method
+            serialized_name: paymentDetailsSource
+            xml_element:
+                namespace: 'http://applicationinfo.payment.services.adyen.com'
+            accessor:
+                getter: getPaymentDetailsSource
+                setter: setPaymentDetailsSource
+            type: GoetasWebservices\Client\AdyenPayment\AppInfo\CommonFieldType
+        shopperInteractionDevice:
+            expose: true
+            access_type: public_method
+            serialized_name: shopperInteractionDevice
+            xml_element:
+                namespace: 'http://applicationinfo.payment.services.adyen.com'
+            accessor:
+                getter: getShopperInteractionDevice
+                setter: setShopperInteractionDevice
+            type: GoetasWebservices\Client\AdyenPayment\AppInfo\ShopperInteractionDeviceType

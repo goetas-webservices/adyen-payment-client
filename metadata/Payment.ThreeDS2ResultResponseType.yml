@@ -1,0 +1,12 @@
+GoetasWebservices\Client\AdyenPayment\Payment\ThreeDS2ResultResponseType:
+    properties:
+        threeDS2Result:
+            expose: true
+            access_type: public_method
+            serialized_name: threeDS2Result
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getThreeDS2Result
+                setter: setThreeDS2Result
+            type: GoetasWebservices\Client\AdyenPayment\ThreedsToData\ThreeDS2ResultType

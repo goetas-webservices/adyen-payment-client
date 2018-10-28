@@ -1,0 +1,14 @@
+GoetasWebservices\Client\AdyenPayment\Payment\VoidPendingRefundResponse:
+    xml_root_name: voidPendingRefundResponse
+    xml_root_namespace: 'http://payment.services.adyen.com'
+    properties:
+        voidPendingRefundResult:
+            expose: true
+            access_type: public_method
+            serialized_name: voidPendingRefundResult
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getVoidPendingRefundResult
+                setter: setVoidPendingRefundResult
+            type: GoetasWebservices\Client\AdyenPayment\Payment\ModificationResultType

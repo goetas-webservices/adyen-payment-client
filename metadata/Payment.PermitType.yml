@@ -1,0 +1,52 @@
+GoetasWebservices\Client\AdyenPayment\Payment\PermitType:
+    properties:
+        partnerId:
+            expose: true
+            access_type: public_method
+            serialized_name: partnerId
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getPartnerId
+                setter: setPartnerId
+            type: string
+        profileReference:
+            expose: true
+            access_type: public_method
+            serialized_name: profileReference
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getProfileReference
+                setter: setProfileReference
+            type: string
+        restriction:
+            expose: true
+            access_type: public_method
+            serialized_name: restriction
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getRestriction
+                setter: setRestriction
+            type: GoetasWebservices\Client\AdyenPayment\Payment\PermitRestrictionType
+        resultKey:
+            expose: true
+            access_type: public_method
+            serialized_name: resultKey
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getResultKey
+                setter: setResultKey
+            type: string
+        validTillDate:
+            expose: true
+            access_type: public_method
+            serialized_name: validTillDate
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getValidTillDate
+                setter: setValidTillDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

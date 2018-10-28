@@ -1,0 +1,14 @@
+GoetasWebservices\Client\AdyenPayment\Payment\RiskOnlyResponse:
+    xml_root_name: riskOnlyResponse
+    xml_root_namespace: 'http://payment.services.adyen.com'
+    properties:
+        paymentResult:
+            expose: true
+            access_type: public_method
+            serialized_name: paymentResult
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getPaymentResult
+                setter: setPaymentResult
+            type: GoetasWebservices\Client\AdyenPayment\Payment\PaymentResultType

@@ -1,0 +1,13 @@
+GoetasWebservices\Client\AdyenPayment\Payment\SoapParts\Authorise3ds2Input:
+    xml_root_namespace: 'http://payment.services.adyen.com'
+    properties:
+        parameters:
+            expose: true
+            access_type: public_method
+            accessor:
+                getter: getParameters
+                setter: setParameters
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            serialized_name: authorise3ds2
+            type: GoetasWebservices\Client\AdyenPayment\Payment\Authorise3ds2

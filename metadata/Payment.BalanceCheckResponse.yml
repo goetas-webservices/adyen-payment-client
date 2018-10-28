@@ -1,0 +1,14 @@
+GoetasWebservices\Client\AdyenPayment\Payment\BalanceCheckResponse:
+    xml_root_name: balanceCheckResponse
+    xml_root_namespace: 'http://payment.services.adyen.com'
+    properties:
+        response:
+            expose: true
+            access_type: public_method
+            serialized_name: response
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getResponse
+                setter: setResponse
+            type: GoetasWebservices\Client\AdyenPayment\Payment\BalanceCheckResultType
