@@ -1,0 +1,182 @@
+GoetasWebservices\Client\AdyenPayment\ThreedsToData\AccountInfoType:
+    properties:
+        accountAgeIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: accountAgeIndicator
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getAccountAgeIndicator
+                setter: setAccountAgeIndicator
+            type: string
+        accountChangeDate:
+            expose: true
+            access_type: public_method
+            serialized_name: accountChangeDate
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getAccountChangeDate
+                setter: setAccountChangeDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        accountChangeIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: accountChangeIndicator
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getAccountChangeIndicator
+                setter: setAccountChangeIndicator
+            type: string
+        accountCreationDate:
+            expose: true
+            access_type: public_method
+            serialized_name: accountCreationDate
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getAccountCreationDate
+                setter: setAccountCreationDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        addCardAttemptsDay:
+            expose: true
+            access_type: public_method
+            serialized_name: addCardAttemptsDay
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getAddCardAttemptsDay
+                setter: setAddCardAttemptsDay
+            type: int
+        deliveryAddressUsageDate:
+            expose: true
+            access_type: public_method
+            serialized_name: deliveryAddressUsageDate
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getDeliveryAddressUsageDate
+                setter: setDeliveryAddressUsageDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        deliveryAddressUsageIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: deliveryAddressUsageIndicator
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getDeliveryAddressUsageIndicator
+                setter: setDeliveryAddressUsageIndicator
+            type: string
+        homePhone:
+            expose: true
+            access_type: public_method
+            serialized_name: homePhone
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getHomePhone
+                setter: setHomePhone
+            type: string
+        mobilePhone:
+            expose: true
+            access_type: public_method
+            serialized_name: mobilePhone
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getMobilePhone
+                setter: setMobilePhone
+            type: string
+        passwordChangeDate:
+            expose: true
+            access_type: public_method
+            serialized_name: passwordChangeDate
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getPasswordChangeDate
+                setter: setPasswordChangeDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        passwordChangeIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: passwordChangeIndicator
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getPasswordChangeIndicator
+                setter: setPasswordChangeIndicator
+            type: string
+        pastTransactionsDay:
+            expose: true
+            access_type: public_method
+            serialized_name: pastTransactionsDay
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getPastTransactionsDay
+                setter: setPastTransactionsDay
+            type: int
+        pastTransactionsYear:
+            expose: true
+            access_type: public_method
+            serialized_name: pastTransactionsYear
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getPastTransactionsYear
+                setter: setPastTransactionsYear
+            type: int
+        paymentAccountAge:
+            expose: true
+            access_type: public_method
+            serialized_name: paymentAccountAge
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getPaymentAccountAge
+                setter: setPaymentAccountAge
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        paymentAccountIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: paymentAccountIndicator
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getPaymentAccountIndicator
+                setter: setPaymentAccountIndicator
+            type: string
+        purchasesLast6Months:
+            expose: true
+            access_type: public_method
+            serialized_name: purchasesLast6Months
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getPurchasesLast6Months
+                setter: setPurchasesLast6Months
+            type: int
+        suspiciousActivity:
+            expose: true
+            access_type: public_method
+            serialized_name: suspiciousActivity
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getSuspiciousActivity
+                setter: setSuspiciousActivity
+            type: bool
+        workPhone:
+            expose: true
+            access_type: public_method
+            serialized_name: workPhone
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getWorkPhone
+                setter: setWorkPhone
+            type: string

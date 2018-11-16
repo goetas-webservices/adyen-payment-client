@@ -1,0 +1,47 @@
+GoetasWebservices\Client\AdyenPayment\Payment\BalanceCheckResultType:
+    properties:
+        additionalData:
+            expose: true
+            access_type: public_method
+            serialized_name: additionalData
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getAdditionalData
+                setter: setAdditionalData
+            type: array<GoetasWebservices\Client\AdyenPayment\Payment\AnyType2anyTypeMapType\EntryAType>
+            xml_list:
+                inline: false
+                entry_name: entry
+                skip_when_empty: true
+                namespace: 'http://payment.services.adyen.com'
+        currentBalance:
+            expose: true
+            access_type: public_method
+            serialized_name: currentBalance
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getCurrentBalance
+                setter: setCurrentBalance
+            type: GoetasWebservices\Client\AdyenPayment\Common\AmountType
+        pspReference:
+            expose: true
+            access_type: public_method
+            serialized_name: pspReference
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getPspReference
+                setter: setPspReference
+            type: string
+        responseCode:
+            expose: true
+            access_type: public_method
+            serialized_name: responseCode
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getResponseCode
+                setter: setResponseCode
+            type: string

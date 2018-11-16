@@ -1,0 +1,122 @@
+GoetasWebservices\Client\AdyenPayment\Payment\ForexQuoteType:
+    properties:
+        account:
+            expose: true
+            access_type: public_method
+            serialized_name: account
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getAccount
+                setter: setAccount
+            type: string
+        accountType:
+            expose: true
+            access_type: public_method
+            serialized_name: accountType
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getAccountType
+                setter: setAccountType
+            type: string
+        baseAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: baseAmount
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getBaseAmount
+                setter: setBaseAmount
+            type: GoetasWebservices\Client\AdyenPayment\Common\AmountType
+        basePoints:
+            expose: true
+            access_type: public_method
+            serialized_name: basePoints
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getBasePoints
+                setter: setBasePoints
+            type: int
+        buy:
+            expose: true
+            access_type: public_method
+            serialized_name: buy
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getBuy
+                setter: setBuy
+            type: GoetasWebservices\Client\AdyenPayment\Common\AmountType
+        interbank:
+            expose: true
+            access_type: public_method
+            serialized_name: interbank
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getInterbank
+                setter: setInterbank
+            type: GoetasWebservices\Client\AdyenPayment\Common\AmountType
+        reference:
+            expose: true
+            access_type: public_method
+            serialized_name: reference
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getReference
+                setter: setReference
+            type: string
+        sell:
+            expose: true
+            access_type: public_method
+            serialized_name: sell
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getSell
+                setter: setSell
+            type: GoetasWebservices\Client\AdyenPayment\Common\AmountType
+        signature:
+            expose: true
+            access_type: public_method
+            serialized_name: signature
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getSignature
+                setter: setSignature
+            type: string
+        source:
+            expose: true
+            access_type: public_method
+            serialized_name: source
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getSource
+                setter: setSource
+            type: string
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getType
+                setter: setType
+            type: string
+        validTill:
+            expose: true
+            access_type: public_method
+            serialized_name: validTill
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getValidTill
+                setter: setValidTill
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

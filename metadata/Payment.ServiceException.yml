@@ -1,0 +1,3 @@
+GoetasWebservices\Client\AdyenPayment\Payment\ServiceException:
+    xml_root_name: ServiceException
+    xml_root_namespace: 'http://payment.services.adyen.com'

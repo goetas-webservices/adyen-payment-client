@@ -1,0 +1,142 @@
+GoetasWebservices\Client\AdyenPayment\ThreedsToData\ThreeDS2RequestDataType:
+    properties:
+        authenticationOnly:
+            expose: true
+            access_type: public_method
+            serialized_name: authenticationOnly
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getAuthenticationOnly
+                setter: setAuthenticationOnly
+            type: bool
+        challengeIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: challengeIndicator
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getChallengeIndicator
+                setter: setChallengeIndicator
+            type: string
+        deviceChannel:
+            expose: true
+            access_type: public_method
+            serialized_name: deviceChannel
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getDeviceChannel
+                setter: setDeviceChannel
+            type: string
+        deviceRenderOptions:
+            expose: true
+            access_type: public_method
+            serialized_name: deviceRenderOptions
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getDeviceRenderOptions
+                setter: setDeviceRenderOptions
+            type: GoetasWebservices\Client\AdyenPayment\ThreedsToData\DeviceRenderOptionsType
+        notificationURL:
+            expose: true
+            access_type: public_method
+            serialized_name: notificationURL
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getNotificationURL
+                setter: setNotificationURL
+            type: string
+        sdkAppID:
+            expose: true
+            access_type: public_method
+            serialized_name: sdkAppID
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getSdkAppID
+                setter: setSdkAppID
+            type: string
+        sdkEncData:
+            expose: true
+            access_type: public_method
+            serialized_name: sdkEncData
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getSdkEncData
+                setter: setSdkEncData
+            type: string
+        sdkEphemPubKey:
+            expose: true
+            access_type: public_method
+            serialized_name: sdkEphemPubKey
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getSdkEphemPubKey
+                setter: setSdkEphemPubKey
+            type: GoetasWebservices\Client\AdyenPayment\ThreedsToData\SDKEphemPubKeyType
+        sdkMaxTimeout:
+            expose: true
+            access_type: public_method
+            serialized_name: sdkMaxTimeout
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getSdkMaxTimeout
+                setter: setSdkMaxTimeout
+            type: int
+        sdkReferenceNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: sdkReferenceNumber
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getSdkReferenceNumber
+                setter: setSdkReferenceNumber
+            type: string
+        sdkTransID:
+            expose: true
+            access_type: public_method
+            serialized_name: sdkTransID
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getSdkTransID
+                setter: setSdkTransID
+            type: string
+        threeDSCompInd:
+            expose: true
+            access_type: public_method
+            serialized_name: threeDSCompInd
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getThreeDSCompInd
+                setter: setThreeDSCompInd
+            type: string
+        threeDSRequestorURL:
+            expose: true
+            access_type: public_method
+            serialized_name: threeDSRequestorURL
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getThreeDSRequestorURL
+                setter: setThreeDSRequestorURL
+            type: string
+        threeDSServerTransID:
+            expose: true
+            access_type: public_method
+            serialized_name: threeDSServerTransID
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getThreeDSServerTransID
+                setter: setThreeDSServerTransID
+            type: string

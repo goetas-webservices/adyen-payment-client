@@ -1,0 +1,27 @@
+GoetasWebservices\Client\AdyenPayment\ThreedsToData\DeviceRenderOptionsType:
+    properties:
+        sdkInterface:
+            expose: true
+            access_type: public_method
+            serialized_name: sdkInterface
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getSdkInterface
+                setter: setSdkInterface
+            type: string
+        sdkUiType:
+            expose: true
+            access_type: public_method
+            serialized_name: sdkUiType
+            xml_element:
+                namespace: 'http://threeds2data.payment.services.adyen.com'
+            accessor:
+                getter: getSdkUiType
+                setter: setSdkUiType
+            type: array<string>
+            xml_list:
+                inline: false
+                entry_name: SDKUiType
+                skip_when_empty: true
+                namespace: 'http://threeds2data.payment.services.adyen.com'

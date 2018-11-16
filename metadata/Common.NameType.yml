@@ -1,0 +1,42 @@
+GoetasWebservices\Client\AdyenPayment\Common\NameType:
+    properties:
+        firstName:
+            expose: true
+            access_type: public_method
+            serialized_name: firstName
+            xml_element:
+                namespace: 'http://common.services.adyen.com'
+            accessor:
+                getter: getFirstName
+                setter: setFirstName
+            type: string
+        gender:
+            expose: true
+            access_type: public_method
+            serialized_name: gender
+            xml_element:
+                namespace: 'http://common.services.adyen.com'
+            accessor:
+                getter: getGender
+                setter: setGender
+            type: string
+        infix:
+            expose: true
+            access_type: public_method
+            serialized_name: infix
+            xml_element:
+                namespace: 'http://common.services.adyen.com'
+            accessor:
+                getter: getInfix
+                setter: setInfix
+            type: string
+        lastName:
+            expose: true
+            access_type: public_method
+            serialized_name: lastName
+            xml_element:
+                namespace: 'http://common.services.adyen.com'
+            accessor:
+                getter: getLastName
+                setter: setLastName
+            type: string

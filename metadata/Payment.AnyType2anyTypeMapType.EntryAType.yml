@@ -1,0 +1,22 @@
+GoetasWebservices\Client\AdyenPayment\Payment\AnyType2anyTypeMapType\EntryAType:
+    properties:
+        key:
+            expose: true
+            access_type: public_method
+            serialized_name: key
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getKey
+                setter: setKey
+            type: \AnyType
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: value
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: \AnyType

@@ -1,0 +1,3 @@
+GoetasWebservices\Client\AdyenPayment\Payment\SoapEnvelope\Headers\AuthoriseReferralInput:
+    xml_namespaces:
+        SOAP: 'http://schemas.xmlsoap.org/soap/envelope/'

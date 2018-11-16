@@ -1,0 +1,92 @@
+GoetasWebservices\Client\AdyenPayment\Payment\BankAccountType:
+    properties:
+        bankAccountNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: bankAccountNumber
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getBankAccountNumber
+                setter: setBankAccountNumber
+            type: string
+        bankCity:
+            expose: true
+            access_type: public_method
+            serialized_name: bankCity
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getBankCity
+                setter: setBankCity
+            type: string
+        bankLocationId:
+            expose: true
+            access_type: public_method
+            serialized_name: bankLocationId
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getBankLocationId
+                setter: setBankLocationId
+            type: string
+        bankName:
+            expose: true
+            access_type: public_method
+            serialized_name: bankName
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getBankName
+                setter: setBankName
+            type: string
+        bic:
+            expose: true
+            access_type: public_method
+            serialized_name: bic
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getBic
+                setter: setBic
+            type: string
+        countryCode:
+            expose: true
+            access_type: public_method
+            serialized_name: countryCode
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getCountryCode
+                setter: setCountryCode
+            type: string
+        iban:
+            expose: true
+            access_type: public_method
+            serialized_name: iban
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getIban
+                setter: setIban
+            type: string
+        ownerName:
+            expose: true
+            access_type: public_method
+            serialized_name: ownerName
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getOwnerName
+                setter: setOwnerName
+            type: string
+        taxId:
+            expose: true
+            access_type: public_method
+            serialized_name: taxId
+            xml_element:
+                namespace: 'http://payment.services.adyen.com'
+            accessor:
+                getter: getTaxId
+                setter: setTaxId
+            type: string
